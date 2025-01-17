@@ -1,0 +1,85 @@
+<%- include('partials/header', {title: "ResumeScanAi", currentPage: "/index-nonauth"}) %>
+<main>
+  <section class="hero blue__place margin__bottom">
+    <div class="hero__container">
+      <h1 class="title--text">Resume validity checker</h1>
+      <h2 class="normal--text">
+        AI-enabled resume verification is the future for employers, hr
+        employees, and all other IT specialties
+      </h2>
+    </div>
+  </section>
+  <section class="howitworks margin__bottom">
+    <div class="howitworks__container">
+      <ul class="howitworks__list normal--text">
+        <li>
+          <img class="small--img" src="/img/info.svg" alt="step1" />
+          <p>
+            Welcome to <b>ResumeScanAi</b>, where you can validate your resume
+            for different companies and receive both overall and targeted
+            feedback to improve it.
+          </p>
+        </li>
+        <li>
+          <img class="small--img" src="/img/ai.svg" alt="step2" />
+          <p>
+            Upload your resume in <b>PDF</b> format and select the type of
+            company you're focused on. This helps AI provide a more accurate
+            assessment.
+          </p>
+        </li>
+        <li>
+          <img class="small--img" src="/img/feedback.svg" alt="step3" />
+          <p>
+            After the review, you'll get an evaluation with positive aspects and
+            suggestions for improvement, supported by general
+            <b>feedback</b> to refine your resume.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="scan margin__bottom" id="scan">
+    <div class="scan__container">
+      <h2 class="subtitle--text">Scan your resume</h2>
+      <div class="scan__auth">
+        <a class="button--general" href="/auth/login">Login</a>
+        <a class="button--second" href="/auth/register">Register</a>
+      </div>
+    </div>
+  </section>
+  <section class="about blue__place margin__bottom" id="about">
+    <div class="about__container">
+      <h2 class="title--text">About Us</h2>
+      <p class="normal--text">
+        ResumeScanAi is a cutting-edge platform that leverages AI technology to
+        help individuals validate and enhance their resumes. Our service is
+        designed to offer tailored feedback based on the type of company you're
+        targeting, ensuring your resume meets industry standards. Whether you're
+        an employer, HR specialist, or job seeker in IT or any other sector, our
+        AI-enabled resume verification provides detailed insights to help you
+        stand out. With ResumeScanAi, you can receive both general and specific
+        recommendations that will elevate your resume to the next level.
+      </p>
+    </div>
+  </section>
+  <section class="review margin__bottom" id="review">
+    <div class="review__container">
+      <h2 class="subtitle--text">Review</h2>
+      <div class="review__mail">
+        <img class="small--img" src="/img/mail.svg" alt="mail" />
+        <a class="normal--text" href="mailto:resume.scan.ai@gmail.com">
+          resume.scan.ai@gmail.com
+        </a>
+      </div>
+      <div class="review__text">
+        <img class="small--img" src="/img/heart.svg" alt="heart" />
+        <p class="normal--text">
+          If you have any wishes, ideas, evaluations or edits please write us on
+          e-mail. We will be looking forward to your feedback.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+<%- include('partials/footer') %>

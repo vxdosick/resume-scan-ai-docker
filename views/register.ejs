@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title><%= title %></title>
+    <link rel="icon" type="image/png" href="/img/logo2.png">
+</head>
+<body>
+    <section class="login">
+        <div class="login__container">
+            <h1 class="subtitle--text">Register</h1>
+            <form class="login__form" id="register-form" action="/auth/register-form" method="POST">
+                <input class="normal--text" type="email" name="email" id="register-email" placeholder="Email" required>
+                <input class="normal--text" type="password" name="password" id="register-password" placeholder="Password" required>
+                <input class="normal--text" type="password" name="confirmPassword" id="register-confirm-password" placeholder="Confirm Password" required>
+                <button class="button--general" type="submit">Sign Up</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

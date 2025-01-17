@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title><%= title %></title>
+    <link rel="icon" type="image/png" href="/img/logo2.png">
+</head>
+<body>
+    <section class="login">
+        <div class="login__container">
+            <h1 class="subtitle--text">Login</h1>
+            <form class="login__form" id="login-form" action="/auth/login-form" method="POST">
+                <input class="normal--text" type="email" name="email" id="login-email" placeholder="Email" required>
+                <input class="normal--text" type="password" name="password" id="login-password" placeholder="Password" required>
+                <button class="button--general" type="submit">Log In</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
