@@ -12,11 +12,7 @@ services:
     volumes:
       - .:/app
       - /app/node_modules
-    # logging:
-    #   driver: "json-file"
-      # options:
-      #   max-size: "10m"
-      #   max-file: "3"
+
 
   mongo:
     image: mongo:latest
@@ -24,11 +20,7 @@ services:
       - mongo_data:/data/db
     ports:
       - "27017:27017"
-    # logging:
-    #   driver: "json-file"
-      # options:
-      #   max-size: "10m"
-      #   max-file: "3"
+
 
 volumes:
   mongo_data:

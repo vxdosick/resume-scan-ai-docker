@@ -5,8 +5,8 @@ class MailService {
         this.transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: 'vadumfotenuk@gmail.com',
-                pass: 'zlkd opfl tmqw wwjm'
+                user: 'resume.scan.ai@gmail.com',
+                pass: 'tjzo lyec nqhd eazm'
             }
         });
     }
@@ -14,7 +14,7 @@ class MailService {
     async sendActivationMail(to, link) {
         try {
             const mailOptions = {
-                from: 'vadumfotenuk@gmail.com',
+                from: 'resume.scan.ai@gmail.com',
                 to: to,
                 subject: 'Activate your account',
                 html: `
