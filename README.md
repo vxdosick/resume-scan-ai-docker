@@ -46,6 +46,7 @@ Welcome to the **Resume Scan AI** – Web application for scanning programmers' 
 ## 🛠️ **Start the project**  
 - **Download or clone this repository**  
 - **Enter command** ```docker-compose up```  
+- **Open program** ```Open http://localhost:3000 after the docker containers are fully loaded```  
 - **Registration and login**
 
 ## 🛠️ **Tech Stack**  
